@@ -3,7 +3,7 @@ const navigationPlugin = require('@11ty/eleventy-navigation')
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
 
 module.exports = function(eleventyConfig) {
-
+  eleventyConfig.addPassthroughCopy("src/fonts");
 
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav"].indexOf(tag) === -1);
