@@ -6,7 +6,6 @@ var clean = require('gulp-clean');
 var browserSync = require('browser-sync').create();
 var rename = require('gulp-rename');
 const purgecss = require('gulp-purgecss');
-const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
 var htmlreplace = require('gulp-html-replace');
 var reload      = browserSync.reload;
