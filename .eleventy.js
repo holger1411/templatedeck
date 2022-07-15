@@ -1,6 +1,5 @@
 const { DateTime } = require("luxon");
 const navigationPlugin = require('@11ty/eleventy-navigation')
-const rssPlugin = require('@11ty/eleventy-plugin-rss')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/fonts");
